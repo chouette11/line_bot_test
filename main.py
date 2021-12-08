@@ -55,6 +55,7 @@ def handle_message(event):
         event.reply_token,
         TextSendMessage(text=message))
 
+
 # ここはいらない～ -------------------------------------------------------------------------------------------
 # def handle_message(event):
 #     if event.message.text =='時間割を教えて':
